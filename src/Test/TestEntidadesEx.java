@@ -9,17 +9,17 @@ import model.TblUsuariot1;
 
 public class TestEntidadesEx {
 	public static void main(String[] args){
-		/*
+		
 		//Registramos usuario
 		TblUsuariot1 tblusuario = new TblUsuariot1();
 		TblUsuarioImp tblusuarioimp = new TblUsuarioImp();
 		
 		//Registramos Usuarios
-		tblusuario.setUsuariot1("Enrique");
+		tblusuario.setUsuariot1("gringo");
 		tblusuario.setPasswordt1("123456");
 		tblusuarioimp.RegistrarUsuario(tblusuario);
 		
-		System.out.println("Se registro un usuario..");	*/
+		System.out.println("Se registro un usuario..");	
 		
 		
 		
@@ -27,8 +27,8 @@ public class TestEntidadesEx {
 		TblProductot1 tblproducto = new TblProductot1();
 		TblProductoImp tblproductoimp = new TblProductoImp();
 		
-		tblproducto.setNombret1("Chisito");
-		tblproducto.setPreciot1(2.00);
+		tblproducto.setNombret1("PATE");
+		tblproducto.setPreciot1(5.00);
 		tblproducto.setDescripciont1("Chisito picante");
 		tblproducto.setEstadot1("Recien ingresado");
 		Date fecha = new Date();
