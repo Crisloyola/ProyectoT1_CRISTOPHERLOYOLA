@@ -26,11 +26,11 @@ public class TestEntidadesEx {
 		//Regristramos producto
 		TblProductot1 tblproducto = new TblProductot1();
 		TblProductoImp tblproductoimp = new TblProductoImp();
-		
-		tblproducto.setNombret1("PATE");
+		/*
+		tblproducto.setNombret1("Producto01");
 		tblproducto.setPreciot1(5.00);
-		tblproducto.setDescripciont1("Chisito picante");
-		tblproducto.setEstadot1("Recien ingresado");
+		tblproducto.setDescripciont1("");
+		tblproducto.setEstadot1("Ingresado");
 		Date fecha = new Date();
 		Date fechasql = new Date(fecha.getTime());
 		tblproducto.setFechafabrit1(fechasql);
@@ -38,7 +38,22 @@ public class TestEntidadesEx {
 		
 		tblproductoimp.RegistrarProducto(tblproducto); //se añade registrar Usuario
 		
-		System.out.println("Se registro nuevo Producto....");
+		System.out.println("Se registro nuevo Producto....");*/
+		
+		//Actualizar Usuario.
+		
+		tblproducto.setNombret1("Producto01");
+		tblproducto.setPreciot1(5.00);
+		tblproducto.setDescripciont1("");
+		tblproducto.setEstadot1("Ingresado");
+		Date fecha = new Date();
+		Date fechasql = new Date(fecha.getTime());
+		tblproducto.setFechafabrit1(fechasql);
+		tblproducto.setFechavencimt1(fechasql);
+		
+		tblproductoimp.ActualizarProducto(tblproducto);
+		
+		System.out.println("Se actualizo el producto..."); //Se actualiza producto
 		
 	}	
 }

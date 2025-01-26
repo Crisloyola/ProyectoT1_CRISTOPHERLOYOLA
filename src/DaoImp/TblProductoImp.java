@@ -30,7 +30,7 @@ public class TblProductoImp implements IProducto {
 	@Override
 	public void ActualizarProducto(TblProductot1 tblproducto) {
 		// Actualizamos Producto.
-		EntityManagerFactory emf = Persistence.createEntityManagerFactory("bdtloyola");
+		EntityManagerFactory emf = Persistence.createEntityManagerFactory("Proy_JPA_LPII_T1_CRISTOPHER_LOYOLA");
 		EntityManager em = emf.createEntityManager();
 		
 		try {
