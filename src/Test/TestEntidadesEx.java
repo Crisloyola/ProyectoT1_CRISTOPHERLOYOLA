@@ -9,7 +9,7 @@ import model.TblUsuariot1;
 
 public class TestEntidadesEx {
 	public static void main(String[] args){
-		
+	
 		//Registramos usuario
 		TblUsuariot1 tblusuario = new TblUsuariot1();
 		TblUsuarioImp tblusuarioimp = new TblUsuarioImp();
@@ -35,6 +35,8 @@ public class TestEntidadesEx {
 		Date fechasql = new Date(fecha.getTime());
 		tblproducto.setFechafabrit1(fechasql);
 		tblproducto.setFechavencimt1(fechasql);
+		
+		tblproductoimp.RegistrarProducto(tblproducto); //se añade registrar Usuario
 		
 		System.out.println("Se registro nuevo Producto....");
 		
